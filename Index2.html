@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style2.css">
+    <title>Game Soft</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="image/logo.png" class="logo">
+            <nav>
+                <ul id="menuList">
+                    <li><a href="">Game center</a></li>
+                    <li><a href="">VR studio</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">About Us</a></li>
+                </ul>
+            </nav>
+            <img src="image/menu.png" class="menu-icon" onclick="togglemenu()">
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <h2>PS68 V2<br>Studio ~</h2>
+                <h3>Wireless controlle studio</h3>
+                <p>Complete Server
+                <p>
+                <h4>$44.40</h4>
+                <button type="button">BUY NOW</button>
+            </div>
+            <div class="col-2">
+                <img src="image/controller.png" class="controller">
+                <div class="color-box"></div>
+                <div class="add-btn">
+                    <img src="image/add.png">
+                    <p><small>Add to Cart</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="social-link">
+        <img src="image/fb.png">
+        <img src="image/tw.png">
+        <img src="image/ig.png">
+
+    </div>
+
+    <script>
+
+        var menuList = document.getElementById("menuList");
+
+        menuList.style.maxHeight = "0px";
+
+        function togglemenu(){
+
+            if(menuList.style.maxHeight == "0px")
+             {
+
+                menuList.style.maxHeight = "134px";
+
+            }
+            else
+             {
+
+                menuList.style.maxHeight = "0px";
+            }
+
+        }
+
+    </script>
+
+</body>
+</html>
+
+
+
+<!-- font-family: 'Edu QLD Beginner', cursive; -->
